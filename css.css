@@ -1,0 +1,233 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --second-font: 'Raleway', sans-serif;
+    --main-color: #212121;
+    --second-color: #FFFFFF;
+    --third-color: #2196F3;
+    --fourth-color: #757575;
+    --fifth-color: #F5F4FA;
+    --sixth-color: #2F303A;
+    --seventh-color: #F5F4FA;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-color); 
+}
+
+/* NAVIGATION & PORTFOLIO */
+
+.navigation-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--third-color);
+    text-decoration: none;
+}
+
+.navigation-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+/* NAVIGATION & CONTACT & FOOTER ONLY ONE ON THE TOP */
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.contact-link-item:hover,
+.contact-link-item:focus,
+.footer-contact-navigation:hover,
+.footer-contact-navigation:focus,
+.footer-contact-list-link:hover,
+.footer-contact-list-link:focus {
+    color: var(--third-color)
+}
+
+/* END NAVIGATION */
+
+.contact-link-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+/* END CONTACT */
+
+/* INDEX */
+
+/* Effective solutions for our biznes */
+
+.buisness-content {
+    background-color: var(--sixth-color);
+}
+
+.buisness-content-main {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--second-color);
+}
+
+.buisness-content-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--second-color);
+    background: var(--third-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* End Effective solutions for our biznes */
+
+/* Our Strengths */
+
+.description-item-main {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+}
+
+.description-item-secondary {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--fourth-color);
+}
+
+/* What we do */
+
+.about-description {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.666;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* END What we do */
+
+/* Our team */
+
+.ourteam-content {
+    background-color: var(--seventh-color);
+}
+
+.ourteam-description {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.666;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.ourteam-list-person {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+}
+
+.ourteam-list-skills {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    color: var(--fourth-color)
+}
+
+/* END Our team */
+
+/* CONTACT FOOTER & PORTFOLIO */
+
+.footer-contact {
+    background-color: var(--sixth-color);
+}
+
+.footer-contact-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--third-color);
+    text-decoration: none;
+}
+
+.footer-contact-navigation {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+.footer-contact-list-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+/* END CONTACT FOOTER */
+
+/* PORTFOLIO PAGE */
+
+/* BUTTON */
+
+.button-list-active:hover,
+.button-list-active:focus {
+    background-color: var(--third-color);
+    color: var(--second-color)
+}
+
+.button-list-active {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    background-color: var(--second-color);
+}
+
+/* END BUTTON */
+
+/* APP */
+
+.app-list-main {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em; 
+    color: var(--main-color)
+}
+
+.app-list-secondary {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--fourth-color)
+}
+
+/* END APP */
